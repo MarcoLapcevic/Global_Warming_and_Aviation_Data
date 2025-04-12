@@ -9,7 +9,7 @@ import seaborn as sns
 
 
 # Load the CSV file
-df = pd.read_csv("/Users/marcolapcevic/Documents/Documents/University & College Information/University of Maryland, College Park/UMDCP Programs/Information Science Program/Bitcamp 2025/Datasets/global_warming_turbulence_data.csv")
+df = pd.read_csv("./datasets/global_warming_turbulence_data.csv")
 
 # Convert 'time' column to datetime format (adjust the column name if necessary):
 df['Year'] = pd.to_datetime(df['Year'])
